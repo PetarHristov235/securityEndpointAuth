@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DeliveryApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DeliveryApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.demo.html">com.example.demo</a> &gt; DeliveryApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.148s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">1.148s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>06:38:05.324 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.DeliveryApplicationTests]: DeliveryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:38:05.433 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DeliveryApplication for test class com.example.demo.DeliveryApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.6)
+
+2024-03-17T06:38:06.231+02:00  INFO 18816 --- [    Test worker] c.example.demo.DeliveryApplicationTests  : Starting DeliveryApplicationTests using Java 17.0.10 with PID 18816 (started by neli in C:\Users\neli\Desktop\delivery)
+2024-03-17T06:38:06.234+02:00  INFO 18816 --- [    Test worker] c.example.demo.DeliveryApplicationTests  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-03-17T06:38:08.017+02:00  INFO 18816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-17T06:38:08.020+02:00  INFO 18816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-03-17T06:38:08.076+02:00  INFO 18816 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.FoodRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-03-17T06:38:08.082+02:00  INFO 18816 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-03-17T06:38:08.084+02:00  INFO 18816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 0 JDBC repository interfaces.
+2024-03-17T06:38:08.106+02:00  INFO 18816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-17T06:38:08.108+02:00  INFO 18816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-17T06:38:08.386+02:00  INFO 18816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 268 ms. Found 2 JPA repository interfaces.
+2024-03-17T06:38:09.570+02:00  INFO 18816 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-17T06:38:09.688+02:00  INFO 18816 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-03-17T06:38:09.692+02:00  INFO 18816 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-03-17T06:38:10.425+02:00  INFO 18816 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-17T06:38:10.568+02:00  INFO 18816 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-17T06:38:11.192+02:00  INFO 18816 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40b31a16
+2024-03-17T06:38:11.196+02:00  INFO 18816 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-17T06:38:11.267+02:00  WARN 18816 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-17T06:38:11.720+02:00  WARN 18816 --- [    Test worker] o.h.b.i.InFlightMetadataCollectorImpl    : HHH000069: Duplicate generator name restaurantIdSeqGenerator
+2024-03-17T06:38:13.228+02:00  INFO 18816 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-17T06:38:13.429+02:00  INFO 18816 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-17T06:38:14.780+02:00  INFO 18816 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-17T06:38:14.897+02:00  WARN 18816 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-17T06:38:15.449+02:00  INFO 18816 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e7d9d0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b0d818d, org.springframework.security.web.context.SecurityContextHolderFilter@238d27ef, org.springframework.security.web.header.HeaderWriterFilter@818a514, org.springframework.web.filter.CorsFilter@7212b28e, org.springframework.security.web.authentication.logout.LogoutFilter@48590849, com.example.demo.config.security.JwtRequestFilter@306c8e09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ec6f3f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37ad818e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@87df88d, org.springframework.security.web.session.SessionManagementFilter@1a3611b1, org.springframework.security.web.access.ExceptionTranslationFilter@ab3b54, org.springframework.security.web.access.intercept.AuthorizationFilter@56bf6f1e]
+2024-03-17T06:38:16.817+02:00  INFO 18816 --- [    Test worker] c.example.demo.DeliveryApplicationTests  : Started DeliveryApplicationTests in 11.075 seconds (process running for 12.858)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at Mar 17, 2024, 6:38:18 AM</p>
+</div>
+</div>
+</body>
+</html>
